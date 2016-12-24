@@ -20,5 +20,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1skt/proprietary/lib/hw/sensors.smdk4x12.so:system/lib/hw/sensors.smdk4x12.so \
     vendor/samsung/c1skt/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/c1skt/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/c1skt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/c1skt/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+    vendor/samsung/c1skt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
