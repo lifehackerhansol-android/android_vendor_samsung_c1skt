@@ -16,10 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c1skt/proprietary/bin/glgps:system/bin/glgps \
+    vendor/samsung/c1skt/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c1skt/proprietary/lib/hw/gps.exynos4.vendor.so:system/lib/hw/gps.exynos4.vendor.so \
     vendor/samsung/c1skt/proprietary/lib/hw/sensors.smdk4x12.so:system/lib/hw/sensors.smdk4x12.so \
     vendor/samsung/c1skt/proprietary/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/c1skt/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/c1skt/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/c1skt/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/c1skt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
+    vendor/samsung/c1skt/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/c1skt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/c1skt/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
