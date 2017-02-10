@@ -30,10 +30,6 @@ PRODUCT_COPY_FILES += \
     kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/boeffla-anykernel:root/boeffla-anykernel
 
 PRODUCT_COPY_FILES += \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/sbin/busybox:root/sbin/busybox \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/sbin/tinyplay:root/sbin/tinyplay
-
-PRODUCT_COPY_FILES += \
     kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/bc/bccontroller.sh:root/res/bc/bccontroller.sh \
     kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/bc/boeffla-init-bc.sh:root/res/bc/boeffla-init-bc.sh \
     kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/bc/boeffla-selinux.sh:root/res/bc/boeffla-selinux.sh
