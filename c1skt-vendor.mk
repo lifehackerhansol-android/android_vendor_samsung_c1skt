@@ -25,15 +25,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1skt/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c1skt/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so\
     vendor/samsung/c1skt/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
-
-PRODUCT_COPY_FILES += \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/boeffla-anykernel:root/boeffla-anykernel
-
-PRODUCT_COPY_FILES += \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/bc/bccontroller.sh:root/res/bc/bccontroller.sh \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/bc/boeffla-init-bc.sh:root/res/bc/boeffla-init-bc.sh \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/bc/boeffla-selinux.sh:root/res/bc/boeffla-selinux.sh
-
-PRODUCT_COPY_FILES += \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/misc/boeffla-config-reset-v4.zip:root/res/misc/boeffla-config-reset-v4.zip \
-    kernel/samsung/smdk4412/anykernel_boeffla/ramdisk/res/misc/silence.wav:root/res/misc/silence.wav
